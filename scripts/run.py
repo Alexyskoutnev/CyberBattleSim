@@ -21,6 +21,7 @@ def main() -> int:
     root.addHandler(handler)
 
     env = gym.make('CyberBattleToyCtf-v0')
+    breakpoint()
 
     logging.info(env.action_space.sample())
     logging.info(env.observation_space.sample())
