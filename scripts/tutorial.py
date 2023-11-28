@@ -406,7 +406,7 @@ def test(env, c2, dbg):
         print(c2.credentials_gathered_so_far)
         # c2.run_attack(node_id, vulerability_id) ->run an attack and attempt to exploit a vulnerability (LOCAL ATTACK)
         # c2.run_remote_attack(node_id, target_node_id, vulnerability_id) (REMOTE ATTACK)
-        #c2.connect_and_infect(source_node_id, target_node_id, port_name, credentials) (Connection)
+        # c2.connect_and_infect(source_node_id, target_node_id, port_name, credentials) (Connection)
         breakpoint()
         dbg.plot_discovered_network()
         print("========================================")

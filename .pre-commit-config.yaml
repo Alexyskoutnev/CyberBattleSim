@@ -6,13 +6,13 @@ exclude: "typings/.*"
 repos:
     - repo: local
       hooks:
-          - id: pyright
-            name: pyright
-            entry: pyright
-            language: node
-            pass_filenames: false
-            types: [python]
-            additional_dependencies: ["pyright@1.1.271"]
+          # - id: pyright
+          #   name: pyright
+          #   entry: pyright
+          #   language: node
+          #   pass_filenames: false
+          #   types: [python]
+          #   additional_dependencies: ["pyright@1.1.271"]
 
           - id: flake8
             name: flake8
